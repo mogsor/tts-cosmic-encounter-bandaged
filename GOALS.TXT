@@ -1,0 +1,38 @@
+
+main thing: general improvements to cosmic encounter experience
+
+##  TABLE DESIGN
+
+- Warp in the middle
+- Score track around it
+- Card holders around that
+- Play area (large)
+- Ship ring
+
+
+##  SPECIFIC ITEMS
+
+I want to push some buttons and have the whole game dealt out for me. That means:
+
+- Choosing which expansions to enable
+- Choosing which extra features we want from those expansions
+- Gathering cards together in the centre
+- Dealing aliens and flares to players
+- Filtering the destiny deck for seated players
+- Creating snap points for decks and discards
+
+
+### Cards drawn from decks should be tagged like that deck
+
+
+### Throwing cards into the warp should automatically sort them into their appropriate discard piles
+
+
+Requirements:
+
+- Scripting zone over the warp
+    - maybe multiple zones to round out the shape? should be okay if the performance doesn't deteriorate
+- Every individual card tagged with the deck it came from
+
+
+### The warp should display how many ships it contains, both per player and total
